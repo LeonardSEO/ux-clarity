@@ -72,11 +72,15 @@ Check only applicable items. Do not invent dependencies or tasks unrelated to th
 - Important comparisons are not split across mutually exclusive views.
 - Data identity, versioning, event definitions, and calculations remain correct.
 - Role permissions and protected routes are unchanged.
-- URL/deep-link and browser back behavior are correct.
-- Form inputs persist appropriately; discard and cancel do what the label promises.
+- Direct URLs, refresh, and browser back lead to understandable states, including invalid or unavailable destinations. Shareable view state is restored where appropriate.
+- Valid input and drafts survive failed saves or submissions; retry does not duplicate the operation. Discard, cancel, and warnings about unsaved work match what will actually be lost.
 - No surprise state survives page transitions without an obvious indicator or clear action.
-- Empty/error/loading/success states are meaningful and accessible.
-- Keyboard, focus, touch, zoom, and small-screen order remain usable.
+- Selection, focus, saving, saved, and completion remain distinct; navigation or preview does not trigger business completion.
+- Empty data, no matches, load failure, and denied access have distinct, honest recovery paths. Background refresh preserves usable context when safe.
+- Returning from detail restores useful filters, sorting, list position, selection, and focus without reviving invalid state.
+- Keyboard, focus, touch, zoom, and small-screen order remain usable; dragging has a non-drag alternative.
+- Long labels, translations, large values, and dense controls do not clip essential content or create unintended page overflow; scroll ownership is clear.
+- For reusable builders or templates, create a fresh item, configure it, save, reopen, and complete its public flow in a safe test context. A copied item or editor screenshot alone does not establish reuse. Do not send real submissions or trigger external effects without authorization.
 - Existing design tokens, typography, and components are reused unless an exception is justified.
 - Automated checks are run when available; limitations are disclosed.
 

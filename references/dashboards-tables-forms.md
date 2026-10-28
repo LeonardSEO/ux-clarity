@@ -66,7 +66,7 @@ A table with more columns is not inherently worse. Hiding a field used to qualif
 
 ## 5. Forms and date constraints
 
-Place fields in the order users naturally complete a task. Group related inputs under descriptive headings. Keep required fields and current context visible. Validate as early as useful without punishing typing-in-progress. Preserve input on failure and provide specific recovery.
+Place fields in the order users naturally complete a task. Group related inputs under descriptive headings. Keep required fields and current context visible. Validate as early as useful without punishing typing-in-progress. Preserve valid input and drafts on failure and provide specific recovery. Make save, save-pending, save-failed, and unsaved states clear; warn before leaving only when work would actually be lost. Cancel/discard must have a predictable scope. Use persistent associated field labels rather than placeholders alone, and move focus only when it helps the next task.
 
 For temporal rules:
 
@@ -88,6 +88,8 @@ An occasional settings screen should not compete with daily work. For dense conf
 - Display selected template, draft changes, save/discard state, and a clear cancel/close path.
 - Decide whether selection survives navigation. If it does, show why and how to clear it; if not, reset without losing intentionally saved work.
 - Label irreversible changes distinctly, with appropriate confirmation and recovery.
+- In builders and editors, keep structural selection separate from the public flow. Selecting a page, field, or completion state must not submit real data or trigger completion. Selection should identify the same object across the structure, canvas, and properties when those regions exist.
+- Give each scroll region a clear purpose; keep essential toolbar actions reachable. Use compact navigation only when the space benefit outweighs loss of orientation, with an obvious exit and expand control.
 
 One screen can contain several related tasks, but distinct high-frequency workflows may deserve peer tabs or separate routes. A set of four accordions is not automatically better than one clear page with titled sections.
 

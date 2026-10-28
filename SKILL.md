@@ -54,7 +54,7 @@ Determine separately:
 4. **Visual hierarchy:** Reading order, alignment, headings, whitespace, density, and action emphasis using the existing visual language.
 5. **Interaction states:** Default, selected, loading, saved, empty, invalid, cancelled, and recovered.
 
-Do not assume every page must have exactly one action. Give the current primary task a clear emphasis; keep independent urgent actions discoverable when the workflow requires them.
+Give the most important task or coherent group of tasks clear priority. Allocate useful space and attention while keeping the context needed for correct decisions visible alongside the work. Do not assume every page must have exactly one action or focal point; keep independent urgent actions discoverable when the workflow requires them.
 
 ### 4. Choose the least confusing interaction pattern
 
@@ -93,7 +93,7 @@ For implementation:
 
 1. Record the affected task and its current behavior.
 2. Change the minimum necessary structure, labels, hierarchy, and interaction behavior using established components and styles.
-3. Check the normal path and edge cases: empty, error, pending, cancel, back, selected state, filters, keyboard, mobile, and role differences when relevant.
+3. Check the normal path and relevant edge cases using [Validation](references/validation.md): honest state feedback, preserved input and navigation context, failure recovery, direct entry, keyboard access, mobile, and role differences. Selection or navigation must not imply saving or completion.
 4. Compare the resulting UI with the task inventory. Confirm previously available functions remain reachable.
 5. Report what was actually verified; identify untested behavior and any required user study.
 

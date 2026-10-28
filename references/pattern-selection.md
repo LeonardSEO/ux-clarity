@@ -87,7 +87,7 @@ On each entry point, the user should be able to recognize:
 - What alternatives exist and where to find them.
 - How to return to a familiar place without losing necessary work.
 
-Use stable global navigation for significant destinations and local navigation for in-page modes. Show the current section and a descriptive page title; use breadcrumbs when hierarchy depth makes them useful, not automatically on every one-level screen. Preserve expected browser history and deep links.
+Use stable global navigation for significant destinations and local navigation for in-page modes. Show the current section and a descriptive page title; use breadcrumbs when hierarchy depth makes them useful, not automatically on every one-level screen. Preserve expected browser history and deep links. When a view, tab, filter, or selection should be shareable or restorable, represent it in the URL as appropriate. Direct entry and refresh should resolve to a valid, understandable state; unavailable destinations need a clear recovery path without exposing restricted data.
 
 Use search when collections are large or users commonly know what they want. Provide browse options to new users who do not know search terms. A zero-results state should guide correction rather than merely announce failure.
 
@@ -115,7 +115,7 @@ Maintain keyboard and screen reader orientation, visible focus and selected stat
 
 - Show the user what is currently selected, including visible active filters and tabs.
 - Provide clear **Cancel**, **Clear selection**, or **Undo** when an edit or selection can be dismissed.
-- Decide intentionally whether navigation preserves a draft, resets a local disclosure, or retains a filter; apply the rule consistently.
+- Decide intentionally whether navigation preserves a draft, resets a local disclosure, or retains a filter; apply the rule consistently. When users return from detail to a collection, restore relevant filters, sorting, position, selection, and logical focus where useful. Do not restore stale context that conflicts with the current record or permissions.
 - Prevent invalid choices where appropriate (e.g., new appointments cannot be scheduled in the past) while retaining legitimate historical edit/view states.
 - Distinguish uncommitted local changes from saved server state. Do not claim "Saved" until confirmed.
 - Do not count or display activity in a way that misleads the user; explain metric definitions when they affect decisions.

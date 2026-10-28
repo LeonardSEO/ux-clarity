@@ -96,7 +96,8 @@ For substantial reviews, expect a task summary, an issue table, a before/after s
 - **Explain pattern choices.** Tabs, accordions, filters, and separate pages solve different problems.
 - **Use evidence and severity.** Findings distinguish observations, reports, and inferences, with severity from 0 to 4.
 - **Simplify without losing capability.** Keep important information, comparisons, actions, permissions, and recovery paths accessible.
-- **Validate honestly.** Report observed behavior and untested assumptions without inventing user-test results.
+- **Protect continuity and trust.** Preserve input and return context; distinguish selection, saving, and completion, and keep failures distinct from empty results.
+- **Validate honestly.** Check relevant complete task paths and report observed behavior and untested assumptions without inventing user-test results.
 
 There are no artificial “10/10 UX” scores, fixed click limits, or mandatory maximum menu sizes. A structure review does not automatically become a brand redesign, animation pass, SEO audit, or performance project.
 

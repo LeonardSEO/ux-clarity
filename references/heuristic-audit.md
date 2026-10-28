@@ -115,5 +115,9 @@ Check applicable states, including first load, empty results, filtered results, 
 - Error feedback identifies the problem and recovery without discarding inputs.
 - A user can reverse or cancel a temporary edit and knows whether changes were saved.
 - Navigation preserves expected history and does not silently lose critical input.
+- Selected, focused, available, editable, saved, and completed states remain distinct. Navigation or preview selection must not advance a business process; success feedback and enabled actions follow the authoritative state.
+- Empty data, no filter matches, loading failure, and denied access are distinguishable. A failure must not appear to be a successful empty result or silently substitute misleading data.
+- Pending actions acknowledge input and prevent duplicate submission without blocking unrelated work. Announce important asynchronous changes accessibly without repeating routine status.
+- Dragging and essential hover interactions have discoverable keyboard and touch alternatives.
 
 This review flags likely issues; use platform guidelines and actual accessibility testing for compliance claims. Do not claim WCAG conformance from code inspection alone.

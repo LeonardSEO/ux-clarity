@@ -58,6 +58,12 @@ Full upstream licenses are available at:
 
 These problems depend on product context, roles, semantics, and user needs. A deterministic edit hook cannot reliably decide whether tabs beat accordions, whether two records should merge, or which task should appear first. Hooks would add intrusive behavior to unrelated edits. The main SKILL.md supplies the decision workflow; small reference files load only when relevant. No runtime dependency or network call is needed to apply the framework to available project files.
 
+## Additional project guidance
+
+At the maintainer's request, selected principles from the supplied project document `docs/UI.md` were incorporated on 2026-10-28. The adaptation adds task-group focus, distinct authoritative states, honest failure feedback, preservation of input and return context, direct-entry checks, accessible interaction alternatives, and end-to-end checks for reusable editors. The source document is not bundled or required at runtime.
+
+Fixed dimensions, mandatory collapsed navigation, restrictive card rules, and a blanket ban on alternate interactions were not adopted. These remain contextual design decisions rather than universal usability rules.
+
 ## Originality and distribution
 
 UX Clarity describes established interaction-design concepts in new wording and combines them into a separate workflow. It does not embed upstream SKILL.md files, executable code, branded CSS templates, or command prompts. Original upstream rights remain with their respective owners. Link to the original files for license and future updates.

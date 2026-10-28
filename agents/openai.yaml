@@ -1,0 +1,4 @@
+interface:
+  display_name: "UX Clarity"
+  short_description: "Design logical, task-first interfaces and audit usability."
+  default_prompt: "Use UX Clarity to review this interface's information architecture, task priorities, navigation, and usability. Give the smallest high-impact improvements with clear reasons."

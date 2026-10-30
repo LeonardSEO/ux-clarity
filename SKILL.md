@@ -56,6 +56,10 @@ Determine separately:
 
 Give the most important task or coherent group of tasks clear priority. Allocate useful space and attention while keeping the context needed for correct decisions visible alongside the work. Do not assume every page must have exactly one action or focal point; keep independent urgent actions discoverable when the workflow requires them.
 
+**Make text earn its place.** Use interface text to identify, distinguish, guide, explain a consequence, or help recovery. Omit descriptions that merely repeat a clear heading or control; do not add welcome copy, obvious instructions, technical rationale, or subtitles just to fill space. Keep information needed for a correct decision visible at the point of action, including price and tax basis, unsaved work, missing values, errors, blockers, and consequences of sending or rejecting. Put secondary definitions, calculations, and history behind clearly named, keyboard- and touch-accessible controls; do not hide essential context in tooltips. Accessibility alternatives must remain available, but do not automatically require an extra visible paragraph.
+
+Follow an existing approved product reference for visual consistency while preserving task-specific patterns: an editor remains an editor and a list remains a list. Keep product-specific colors, dimensions, and component styling in the product's design guidance rather than turning them into universal UX rules.
+
 ### 4. Choose the least confusing interaction pattern
 
 Read [Pattern selection](references/pattern-selection.md) when deciding between pages, tabs, segmented controls, accordions, filters, tables, cards, summaries, and drill-downs. State *why* a pattern fits and *when it would be worse* than the alternative.

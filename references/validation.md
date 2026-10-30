@@ -67,6 +67,7 @@ If user behavior is not measured, avoid specific claims such as "30% faster" or 
 Check only applicable items. Do not invent dependencies or tasks unrelated to the change.
 
 - Primary actions remain reachable and clearly labeled.
+- Visible copy contributes to the task rather than repeating headings or obvious controls. Decision-critical information stays visible at the relevant action; secondary explanations remain discoverable and operable by keyboard and touch.
 - Global and local navigation names remain consistent.
 - Active tab, selected filter, and disclosure state are visible.
 - Important comparisons are not split across mutually exclusive views.
@@ -81,7 +82,7 @@ Check only applicable items. Do not invent dependencies or tasks unrelated to th
 - Keyboard, focus, touch, zoom, and small-screen order remain usable; dragging has a non-drag alternative.
 - Long labels, translations, large values, and dense controls do not clip essential content or create unintended page overflow; scroll ownership is clear.
 - For reusable builders or templates, create a fresh item, configure it, save, reopen, and complete its public flow in a safe test context. A copied item or editor screenshot alone does not establish reuse. Do not send real submissions or trigger external effects without authorization.
-- Existing design tokens, typography, and components are reused unless an exception is justified.
+- Existing design tokens, typography, and components are reused unless an exception is justified. Where an approved product reference exists, compare applicable normal, empty, and narrow views, including long labels, for hierarchy, surfaces, and text density without forcing different tasks into the same layout. A successful build does not establish visual agreement.
 - Automated checks are run when available; limitations are disclosed.
 
 Conclude with: **verified**, **not verified**, and **requires user observation**. Never collapse these categories into one claim that UX has been proven better.

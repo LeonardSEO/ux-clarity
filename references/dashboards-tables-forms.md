@@ -39,13 +39,15 @@ Do not confuse workflow status and urgency. "Draft," "Sent," "Accepted," and "Ex
 
 Before showing a metric, complete: "A user sees this in order to decide ____." If no concrete decision follows, deprioritize the metric.
 
-- Show time range, units, definitions, and scope where they affect interpretation.
+- Keep the time range, units, scope, and short definitions visible where needed for correct interpretation. Make extended definitions and calculation details available on request through a named, keyboard- and touch-accessible control; not every metric needs an explanatory paragraph.
 - Avoid duplicate-looking metrics from different versions unless version comparison is a deliberate user task; prefer a clear aggregate with drill-down.
 - For activity history, distinguish **sent**, **first viewed**, **most recently viewed**, and **view count** only when events can actually be tracked reliably.
 - If reporting quote opens, define whether the count means unique sessions, unique recipients, or raw events; don't present refreshes as unique interest without qualification.
 - Never imply that a metric or notification exists when there is no supported underlying event source.
 - Keep data needed for comparison together rather than segregating comparable numbers into separate tabs.
 - Use visualizations for a question (trend, category comparison, composition); a table may be better for exact values and individual action.
+
+Provide an appropriate accessible text or data alternative for charts. This does not automatically require an additional visible prose paragraph; choose a form that preserves the relevant information and remains discoverable to the people who need it.
 
 Avoid all-or-nothing interpretation of an analytics chart: bar charts for discrete comparisons typically need a meaningful zero baseline; line charts can use bounded axes when honestly labelled and contextually justified. Never invent data.
 

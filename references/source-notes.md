@@ -64,6 +64,8 @@ At the maintainer's request, selected principles from the supplied project docum
 
 Fixed dimensions, mandatory collapsed navigation, restrictive card rules, and a blanket ban on alternate interactions were not adopted. These remain contextual design decisions rather than universal usability rules.
 
+On 2026-10-30, the maintainer's supplied product-style document added guidance on purposeful interface text, decision-critical information at the point of action, accessible secondary explanations, chart alternatives without automatic visible prose, and task-preserving visual consistency. Dashboard-specific colors, dimensions, typography, and component classes remain product guidance rather than skill-wide rules.
+
 ## Originality and distribution
 
 UX Clarity describes established interaction-design concepts in new wording and combines them into a separate workflow. It does not embed upstream SKILL.md files, executable code, branded CSS templates, or command prompts. Original upstream rights remain with their respective owners. Link to the original files for license and future updates.
